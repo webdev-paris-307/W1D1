@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 1px solid red;
+}
+
+html {
+	background-color: greenyellow;
+}
+
+img {
+	width: 200px;
+}
+
+#introduction {
+	background-image: url("./assets/images/kitten.png");
+	background-position: center;
+	background-size: cover;
+	height: calc(50vh - 50px);
+	text-align: center;
+	position: relative;
+}
+
+h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	translate: -50% -50%;
+}
+
+kbd {
+	background-color: hsl(0, 0%, 90%);
+	border: 1px dashed black;
+	/*padding: 10px 3px 0px 7px;
+	padding: 5px 10px;*/
+
+	font-weight: 700;
+
+	padding: 2px;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+header {
+	background-color: black;
+	color: white;
+	height: 50px;
+}
+
+#main-content {
+	max-width: 80%;
+	text-align: center;
+	margin: auto;
+}
+
+.article {
+	background-color: rgb(202, 198, 198);
+	border-radius: 16px;
+	margin-bottom: 20px;
+}
+
+.special {
+	background-color: dodgerblue;
+}
+
+div.hello .world {
+	color: red;
+}
+
+/*
+.hello.world {
+
+}
+
+.hello > .world {
+
+}
+*/
